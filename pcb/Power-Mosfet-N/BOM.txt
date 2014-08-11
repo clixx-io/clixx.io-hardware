@@ -1,0 +1,10 @@
+BOM
+---------
+Mosfet
+ 30N06L
+ 
+ 4K7
+ 1K
+ 
+ Input = 18
+ Vout = 3.158
