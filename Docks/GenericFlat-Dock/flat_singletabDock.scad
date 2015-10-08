@@ -11,31 +11,31 @@ module singleTabDock()
 			union() {
 				// Main front top cutout - Part A - Outer
                        translate([-10,5,-5]) 
-				  cube([50, 21, 10]);
+				  cube([57, 21, 10]);
 				// Main front top cutout - Part B - Inner
                        translate([-10,7.5,-5]) 
 				  cube([46, 16, 12]);
 
 				// Decorational cutout
-                       translate([0,0,-3]) 
-				  cube([20, 30, 5]);
+                //  translate([0,0,-3]) 
+				//  cube([20, 30, 5]);
 
 				// Tab cutout
                        translate([-10,10,-5]) 
-				  cube([60, 10, 7]);
+				  cube([65, 10, 7]);
 
 				// Connector slot
-                       translate([40,6,2.5]) 
+                translate([45,6,2.5]) 
 				  cube([10, 2.54*2, 8]);
-                       translate([40,19,2.5]) 
+                translate([45,19,2.5]) 
 				  cube([10, 2.54*2, 8]);
 
 				// Main Screw hole
-                       translate([45,15,0]) 
+                translate([50,15,0]) 
 				  cylinder(r = 1.5, h = 10);
 
 				// Wiring Cavity
-                       translate([40,5,6]) 
+                translate([50,5,6]) 
 				  cube([15, 20, 4]);
 
 				// Additional cutout for mounting backplate
