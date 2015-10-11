@@ -13,8 +13,11 @@ module singleTabDock()
                        translate([-10,5,-5]) 
 				  cube([57, 21, 10]);
 				// Main front top cutout - Part B - Inner
-                       translate([-10,7.5,-5]) 
-				  cube([46, 16, 12]);
+                translate([17,7.5,-5]) 
+				  cube([25, 16, 12]);
+
+                translate([3,7.5,-5]) 
+				  cube([8, 16, 12]);
 
 				// Decorational cutout
                 //  translate([0,0,-3]) 
@@ -34,13 +37,17 @@ module singleTabDock()
                 translate([50,15,0]) 
 				  cylinder(r = 1.5, h = 10);
 
+				// Second lower screw hole
+                translate([14,15,0]) 
+				  cylinder(r = 1.5, h = 10);
+
 				// Wiring Cavity
-                translate([50,5,6]) 
+                translate([42,5,7]) 
 				  cube([15, 20, 4]);
 
 				// Additional cutout for mounting backplate
                        translate([30,5,8]) 
-				  cube([15, 20, 2]);
+				  cube([15, 20, 3]);
 
 				// Backplate Screw hole 1
                        translate([52.50,7.5,2]) 
